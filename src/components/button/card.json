@@ -1,0 +1,47 @@
+{
+  "collectionName": "components_logo_cards",
+  "info": {
+    "displayName": "cmplxbtn",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "href": {
+      "type": "string"
+    },
+    "bigimg": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "btnhding": {
+      "type": "text"
+    },
+    "btn_description": {
+      "type": "text"
+    }
+  }
+}

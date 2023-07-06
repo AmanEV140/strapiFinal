@@ -1,0 +1,51 @@
+{
+  "collectionName": "components_chunks_chunk2s",
+  "info": {
+    "displayName": "chunk2",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "visibility": {
+      "type": "boolean"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "list": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.card"
+    },
+    "section": {
+      "type": "enumeration",
+      "enum": [
+        "AddedSect__",
+        "Section-1",
+        "Section-2",
+        "Section-3",
+        "Section-4",
+        "Section-5",
+        "Section-6",
+        "Section-7",
+        "Section-8",
+        "Section-9",
+        "Section-10"
+      ]
+    }
+  }
+}

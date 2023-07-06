@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_card_headsubs",
+  "info": {
+    "displayName": "headsub"
+  },
+  "options": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "subhead": {
+      "type": "string"
+    }
+  }
+}

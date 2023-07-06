@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "btmmenus",
+  "info": {
+    "singularName": "btmmenu",
+    "pluralName": "btmmenus",
+    "displayName": "btmmenu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "logo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.logo"
+    },
+    "lists": {
+      "type": "component",
+      "repeatable": true,
+      "component": "chunks.list"
+    },
+    "ftr": {
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.cmpnyinfo"
+    }
+  }
+}

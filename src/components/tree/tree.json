@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_tree_trees",
+  "info": {
+    "displayName": "tree",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "sublabel": {
+      "type": "string"
+    },
+    "itms": {
+      "displayName": "itm",
+      "type": "component",
+      "repeatable": true,
+      "component": "itms.itm"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "HP",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "intro": {
+      "type": "component",
+      "repeatable": false,
+      "component": "card.card"
+    },
+    "btn": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.href"
+    },
+    "productweoffer": {
+      "displayName": "headsub",
+      "type": "component",
+      "repeatable": false,
+      "component": "card.headsub"
+    },
+    "product": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.card"
+    },
+    "whtwdo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "card.headsub"
+    },
+    "serviceview": {
+      "type": "component",
+      "repeatable": false,
+      "component": "card.headsub"
+    },
+    "srvcs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.card"
+    },
+    "brnds": {
+      "type": "component",
+      "repeatable": false,
+      "component": "card.headsub"
+    },
+    "brndimg": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "whyins": {
+      "type": "component",
+      "repeatable": false,
+      "component": "card.headsub"
+    },
+    "whyvnt": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.card"
+    },
+    "prtnr": {
+      "type": "component",
+      "repeatable": false,
+      "component": "card.card"
+    },
+    "prtnrimg": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "upprdct": {
+      "type": "component",
+      "repeatable": false,
+      "component": "card.headsub"
+    },
+    "futprdct": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.card"
+    },
+    "testimnial": {
+      "displayName": "testimonial",
+      "type": "component",
+      "repeatable": false,
+      "component": "button.testimonial"
+    },
+    "getin": {
+      "type": "component",
+      "repeatable": false,
+      "component": "card.card"
+    },
+    "inpt": {
+      "type": "component",
+      "repeatable": false,
+      "component": "usrerip.userip"
+    }
+  }
+}

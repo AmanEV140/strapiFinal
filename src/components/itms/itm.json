@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_itms_itms",
+  "info": {
+    "displayName": "itm",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "href": {
+      "type": "string"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "description": {
+      "type": "text"
+    },
+    "btn": {
+      "type": "string"
+    }
+  }
+}

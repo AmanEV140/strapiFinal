@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "page",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "chunks": {
+      "type": "dynamiczone",
+      "components": [
+        "chunks.chunk2",
+        "chunks.chunk1",
+        "chunks.list"
+      ]
+    }
+  }
+}

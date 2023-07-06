@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_footer_cmpnyinfos",
+  "info": {
+    "displayName": "cmpnyinfo",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.href"
+    },
+    "phoneno": {
+      "type": "biginteger"
+    },
+    "handles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.logo"
+    },
+    "address": {
+      "type": "text"
+    },
+    "copyrt": {
+      "type": "text"
+    }
+  }
+}

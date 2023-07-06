@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_chunks_contents",
+  "info": {
+    "displayName": "content",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "cntnt": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "label": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_footer_footers",
+  "info": {
+    "displayName": "footer"
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.href"
+    },
+    "handles": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.logo"
+    },
+    "phoneno": {
+      "type": "integer"
+    }
+  }
+}

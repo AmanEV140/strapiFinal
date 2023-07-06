@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_usrerip_userips",
+  "info": {
+    "displayName": "input",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phnno": {
+      "type": "biginteger"
+    },
+    "submit": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.href"
+    }
+  }
+}
