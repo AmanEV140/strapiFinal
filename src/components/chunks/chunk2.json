@@ -12,10 +12,10 @@
     "Description": {
       "type": "text"
     },
-    "visibility": {
+    "visible": {
       "type": "boolean"
     },
-    "img": {
+    "Image": {
       "type": "media",
       "multiple": false,
       "required": false,
